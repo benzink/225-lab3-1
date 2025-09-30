@@ -3,7 +3,7 @@ pipeline {
     agent any 
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'benzink-dockerhub'                                 // <------DON'T change this
+        DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'                                 // <------DON'T change this
         DOCKER_IMAGE = 'cithit/benzink'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/benzink/225-lab3-1.git'                   // <------change this
